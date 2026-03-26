@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f2f1;
+}
+
+.app {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.columns-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.column {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    min-width: 300px;
+    max-width: 400px;
+    resize: horizontal;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.column-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card {
+    background-color: #faf9f8;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 8px;
+    cursor: move;
+    border: 1px solid #e1dfdd;
+}
+
+.card:hover {
+    background-color: #f3f2f1;
+}
+
+.card-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.card-link {
+    color: #0078d4;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.add-card-btn {
+    margin-top: 16px;
+}
+
+.drag-over {
+    background-color: #e1dfdd;
+}
